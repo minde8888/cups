@@ -19,11 +19,11 @@ while(a<=num){
       counter++;
       let b = counter;
       HTML += '<div class="flex">'
-      for ( let x=0; x<=count-1; x++ ){
+      for ( let x=0; x<=counter-1; x++ ){
         console.log(counter)
         HTML += `<div class="img" style="width: calc(100% / ${counter});"><img src="./img/cup.png"/> </div>`;
       }
-      // 
+     
       HTML += '</div>'
 
 

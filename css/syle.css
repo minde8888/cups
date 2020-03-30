@@ -1,9 +1,16 @@
-img{
-    display: inline-block;
-    margin-top: 2% ;
-    width: 60px;
-    margin-left: calc((100% - 200px) / 2);
-}
 .flex {
+    display: inline-block;
     display: flex;
+
+}   
+    img{
+        display: inline-block;
+        margin-top: 2% ;
+        width: 60px;
+        margin-left: calc((100% - 200px) / 2);
+        }
+
+.tower{
+    display: inline-block;
+    margin-left: left;
 }
