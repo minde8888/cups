@@ -21,6 +21,6 @@ while(a<=num){
       // HTML +=  <img src="./img/cup.png">;
 
 
-     HTML += <div class="img" style=`width: calc(100% / ${counter});`><img src="./img/cup.png"/> </div>;
+     HTML += <`div class="img" style="width: calc(100% / ${counter});"><img src="./img/cup.png"/> </div`>;
     }
     cups.innerHTML = HTML;
